@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+ min-height: 100vh;
+  background: linear-gradient(to bottom,#cf2b7a 0%,#eedf8b 50%,#e7ff5c 100%);
+}
+h1 {
+  font-size: 5rem;
+  color: #173f5f;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+.grid{
+    display:grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(4,100px);
+    gap:50px;
+    align-content: center;
+    justify-content: center;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+.items{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+button.show.fir{
+  background-color: red;
+}
+button.show.sec{
+  background-color: orange;
+}
+button.show.thi{
+  background-color: yellow;
+}
+button.show.fou{
+  background-color: rgb(75, 255, 47);
+}
+button.show.fif{
+  background-color: skyblue;
+}
+button.show.six{
+  background-color: violet;
+}
+.grid button{
+  width:100%;
+  height:100%;
+}
+button{
+background-color: brown;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
